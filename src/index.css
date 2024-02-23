@@ -1,83 +1,25 @@
 body{
-    background-color: rgba(41, 39, 39, 0.592);
+    background-image: url(assets/Timer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin: 0;
+    display :flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items:center;
 }
 
-.to-do-list{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    margin-top: 100px;
+.clock-container{
+    backdrop-filter: blur(5px);
 }
-h1{
-    font-size: 4rem;
-    color:white
-}
-button{
-    font-size: 1.7rem;
-    font-weight: bold;
-    padding: 10px 20px;
+
+.clock{
     color:white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-}
-
-.add-button{
-    background-color: hsl(125, 47%, 54%);
-}
-
-.add-button-hover{
-    background-color: hsl(125, 47%, 44%);
-}
-
-.delete-button{
-    background-color: hsla(0, 94%, 50%, 0.684);
-}
-
-.delete-button-hover{
-    background-color: hsla(0, 100%, 50%, 0.684);
-}
-
-.move-button{
-    background-color: hsla(238, 100%, 50%, 0.684);
-}
-
-.move-button-hover{
-    background-color: hsla(238, 100%, 50%, 0.684);
-}
-
-input[type="text"]{
-    font-size: 1.6rem;
-    padding: 10px;
-    border: 2px solid rgb(202, 74, 74);
-    border-radius: 5px;
-    color:black;
-
-}
-
-ol{
-    padding:0;
-
-}
-
-li{
-    font-size: 2rem;
+    font-size: 6rem;
     font-weight: bold;
-    padding:15px;
-    background-color: white;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-}
-
-.text{
-    flex:1;
-
-}
-
-.delete-button,.move-button{
-    padding:8px 12px;
-    font-size: 1.4rem;
-
+    font-family: monospace;
+    text-shadow:rgba(13, 4, 4, 0.419);
+    text-align: center;
 }

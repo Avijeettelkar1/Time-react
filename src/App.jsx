@@ -1,7 +1,7 @@
-import ToDoList from "./ToDoList.jsx"
+import DigitalClock from "./DigitalClocks.jsx"
 
 function App(){
-  return(<ToDoList/>)
+  return(<DigitalClock/>)
 
 }
 
